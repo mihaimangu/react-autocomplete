@@ -15,7 +15,6 @@
     &:active{
         border: 1px solid blue;
     }
-   
 }
 
 .suggestions-wrapper{
@@ -29,8 +28,8 @@
     border-radius:5px;
     text-align: left;
     margin-bottom:10px;
-    width: 90%;
-    max-height: 400px;
+    width: 100%;
+    max-height: 250px;
     overflow-y: scroll;
     background:white;
 }
