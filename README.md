@@ -17,7 +17,7 @@ In other words, the first one is filtering client side, while the second one is 
 
 - The `container` component is the parent component that renders the two `AutoComplete` and `AutoCompleteInternal` components. It also grabs the data when the component mounts.
 
-- The `AutoComplete` component uses the data that is already fetching when the `container` mounts. It filters the data using regex. Check `suggestItems`. 
+- The `AutoComplete` component uses the data that is already fetched when the `container` mounts. It filters the data using regex. Check `suggestItems`. 
 
 - The `AutoCompleteInternal` component is different, in the sense that it filters the data by calling an endpoint using the `getData` prop. 
 
