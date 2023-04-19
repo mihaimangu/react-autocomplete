@@ -19,7 +19,6 @@ export default function Container() {
     }
 
     const fetchInternalPosts = async(q: string) => {
-        console.log('fetching internal posts', q);
         const response = await getDataFromLocalServer(q);
         return response;
     }
