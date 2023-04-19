@@ -21,6 +21,7 @@ In other words, the first one is filtering client side, while the second one is 
 
 - The `AutoCompleteInternal` component is different, in the sense that it filters the data by calling an endpoint using the `getData` prop. 
 
+- The `server.js` is used in order to serve the endpoints. It uses the data from `items.json` (no need for a database).
 
 
 
