@@ -2,8 +2,7 @@
 
 The difference between a React `component` and `PureComponent` is the fact that the second one does not re-render when the props are the same. `PureComponent` should not be used anymore because it's a class component, not a function component (`memo` can be used with a function component).
 
-# Context + ShouldComponentUpdate might be dangerous. Can think of why is
-that?
+# Context + ShouldComponentUpdate might be dangerous. Can think of why is that?
 
 While context is used in order to pass data to certain components, that can be a problem in the sense that a component can re-render if not relevant props change. You could use `shouldComponentUpdate` in order to prevent that, but that might lead to issues, in the sense that you might end up in a situation when you are preventing a component to be rerendering, that actually needs to be rendered. So `shouldComponentUpdate` can be a double-edged sword.
 
